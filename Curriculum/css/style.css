@@ -1,0 +1,34 @@
+body{
+    font-family: Arial;
+}
+header{
+    background-color: #ddd;
+    text-align: center;
+    line-height: 2;
+}
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+section{
+    margin-top: 30px
+}
+h1,h2{
+    background-color: #bfbfbf;
+}
+h1{
+    color: #1f497d;
+    
+}
+h2{
+    color: #632423;
+    
+}
+.item-detail{
+    font-weight: 800;
+}
+footer{
+    text-align: center;
+    background-color: #1f497d;
+    margin-top: 30px
+}
