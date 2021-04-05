@@ -1,5 +1,6 @@
 body{
-    font-family: Arial;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    margin: auto;
 }
 header{
     background-color: #ddd;
@@ -30,5 +31,8 @@ h2{
 footer{
     text-align: center;
     background-color: #1f497d;
-    margin-top: 30px
+    margin-top: 30px;
+    font-size: 24px;
+    color: white;
+    
 }
