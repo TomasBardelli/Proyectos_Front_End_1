@@ -1,0 +1,29 @@
+header{
+    background-image: url(../img/lemon-pie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-position: bottom;
+}
+main{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    background-color: gray;
+}
+main section h3 {
+    font-style: italic;
+}
+.link {
+    color: black;
+    text-decoration: none;
+}
+.falso{
+    color: orange;
+    text-decoration: underline;
+}
