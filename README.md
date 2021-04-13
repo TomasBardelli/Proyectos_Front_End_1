@@ -10,6 +10,6 @@ Link: https://tomasbardelli.github.io/Proyectos_Front_End/Receta/
 
 Link: https://tomasbardelli.github.io/Proyectos_Front_End/Curriculum/
 
-3.Proyecto Cartas: se maquetan cartas de presentacion de super heroes utilizando propiedades de posicionamiento
+  3.Proyecto Cartas: se maquetan cartas de presentacion de super heroes utilizando propiedades de posicionamiento
 
 Link: https://tomasbardelli.github.io/Proyectos_Front_End/Cards
