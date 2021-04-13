@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    color: #f3f3f3;
+    position: sticky;
+    top: 0;
+    background-color: #00669F;
+    padding: 15px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+section{
+    text-align: center;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #00669F;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+i{
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.descuento{
+    background-color: #1CD1B0;
+    padding: 0 10px;
+}
+.card{
+    position: relative;
+    left: 39%;
+    border: 1px solid #f3f3f3;
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 30px 0px;
+}
+.cardText{
+    height:300px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.cardTextImg{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    z-index: 10;
+}
+.cardImg{
+    height: 200px;
+    width: 348px;
+    border-radius: 20px 20px 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cardImg-Batman{
+    background-image: url(../img/bg-batman.jpg);   
+}
+.cardImg-Superman{
+    background-image: url(../img/bg-superman.jpg); 
+}
+.cardImg-Wonderwoman{
+    background-image: url(../img/bg-wonderw.jpg); 
+}
+.descripccion{
+    position: relative;
+    top: 70px;
+    margin: 10px;
+}
+.boton{
+    padding: 10px 20px;
+    background-color: #00669F;
+    position: relative;
+    top: 110px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.botonPlus{
+    position: sticky;
+    bottom: 20px;
+    left: 30px;
+    z-index: 10;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #00669F;
+    color: white;
+    text-align: center;
+}
