@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    color: #f3f3f3;
+    position: sticky;
+    top: 0;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #00669F;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: small;
+}
+h1 {
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+h2{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+.logo{
+    height: 40px;
+    width: 50px;
+    margin: 5px;
+}
+.descuento{
+    background-color: #1CD1B0;
+    padding: 0 10px;
+    font-size: small;
+}
+.divGeneral{
+    max-width: 350px;
+    position: relative;
+    left: 36%;
+    top: 130px;
+}
+.formulario{
+    display: block;
+    border: 1px solid black;
+    border-radius: 0;
+    margin: 10px 0px;
+    width: 350px;
+    padding: 5px;
+    
+}
+.boton{
+    border-radius: 23px;
+    border: 0;
+    padding: 5px 0px;
+    margin-top: 20px;
+    background-color: #1CD1B0;
+    font-weight: 700;
+}
+.botonGrande{
+    position: relative;
+    width: 350px;
+}
+.btnReset{
+    background-color: #888;
+    margin: 20px 5px 0px 0px;
+    width: 170px;
+    color: white;
+  
+}
+.btnEntrar{
+    width: 170px;
+}
+.texto{
+    margin-top: 7px;
+    text-align: center;
+    font-size: 10px;
+}

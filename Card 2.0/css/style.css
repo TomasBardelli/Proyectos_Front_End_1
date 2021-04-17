@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+header{
+    color: #f3f3f3;
+    position: sticky;
+    top: 0;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+header h2{
+    color: #f3f3f3;
+    
+}
+section{
+    text-align: center;
+}
+main{
+    position: relative;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #00669F;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+nav{
+
+    background-color: #001D2D;
+}
+ul{
+    text-align: right;
+    padding-right: 10px;
+}
+.descuento{
+    background-color: #1CD1B0;
+    padding: 0 10px;
+}
+.navBar{
+    display: inline-block;
+    padding: 4px;
+}
+.navBar a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.card{
+    position: relative;
+    top: 150px;
+    border: 1px solid #f3f3f3;
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 40px;
+    display: inline-block;
+}
+.cardText{
+    height:258px;
+    background-color: #f3f3f3;
+    position: relative;
+    padding-top: 60px;
+}
+.cardTextImg{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -60px;
+    left: 155px;
+    z-index: 10;
+}
+.cardImg{
+    height: 150px;
+    width: 398px;
+    border-radius: 20px 20px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+.corazon{
+    padding: 10px;
+    color: red;
+}
+.cardImg-Batman{
+    background-image: url(../img/bg-batman.jpg);   
+}
+.cardImg-Superman{
+    background-image: url(../img/bg-superman.jpg); 
+}
+.cardImg-Wonderwoman{
+    background-image: url(../img/bg-wonderw.jpg); 
+}
+.descripccion{
+    position: relative;
+    
+}
+.boton{
+    padding: 10px 20px;
+    background-color: #00669F;
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.logo{
+    height: 40px;
+    width: 50px;
+    margin: 5px;
+}
+#botonSticky{
+    position: fixed;
+    color: #00669F;
+    bottom: 40px;
+    right: 0px;
+    padding: 15px;
+    font-size: 3em;
+    z-index: 100;
+}

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    color: #f3f3f3;
+    position: sticky;
+    top: 0;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+a{
+    text-decoration: none;
+}
+header h1{
+    color: white;
+    font-size: 70px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #00669F;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+body{
+    background-color: tomato;
+}
+.descuento{
+    background-color: #1CD1B0;
+    padding: 0 10px;
+}
+.card{
+    position: relative;
+    top: 250px;
+    width: 600px;
+    border-radius: 45px 45px 0px 0px;
+    margin: auto;
+    background-color: white;
+}
+.descripcion{
+    padding: 100px 30px 20px 30px;
+    position: relative;
+}
+.iconos{
+    position: relative;
+    left: 160px;
+    font-size: 50px;
+}
+.iconos i{
+    padding: 20px 15px;
+}
+.boton{
+    position: absolute;
+    bottom: -50px;
+    padding: 15px 243px;
+    background-color: #2C0187;
+    border-radius: 0px 0px 45px 45px;
+    color: white;
+}
+#titulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
