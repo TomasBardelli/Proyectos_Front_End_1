@@ -30,7 +30,7 @@ footer{
     color: white;
 }
 body{
-    background-color: tomato;
+    background-color: rgb(70, 93, 122);
 }
 .descuento{
     background-color: #1CD1B0;
@@ -43,6 +43,16 @@ body{
     border-radius: 45px 45px 0px 0px;
     margin: auto;
     background-color: white;
+}
+.cardTextImg{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -60px;
+    left: 230px;
+    z-index: 10;
 }
 .descripcion{
     padding: 100px 30px 20px 30px;
@@ -67,4 +77,5 @@ body{
 #titulo{
     text-align: center;
     padding-bottom: 20px;
+    font-size: 2em;
 }

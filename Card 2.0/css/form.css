@@ -21,33 +21,32 @@ footer{
     text-align: center;
     padding: 10px;
     color: white;
-    font-size: small;
 }
 h1 {
     font-weight: 700;
     padding-bottom: 10px;
-    font-size: 35px;
+    font-size: 55px;
 }
 h2{
     display: inline-block;
     position: relative;
-    bottom: 15px;
+    bottom: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #f3f3f3;
+    font-size: 35px;
 }
 .logo{
-    height: 40px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     margin: 5px;
 }
 .descuento{
     background-color: #1CD1B0;
     padding: 0 10px;
-    font-size: small;
 }
 .divGeneral{
-    max-width: 350px;
+    max-width: 550px;
     position: relative;
     left: 36%;
     top: 130px;
@@ -57,34 +56,34 @@ h2{
     border: 1px solid black;
     border-radius: 0;
     margin: 10px 0px;
-    width: 350px;
-    padding: 5px;
+    width: 550px;
+    padding: 15px;
     
 }
 .boton{
     border-radius: 23px;
     border: 0;
-    padding: 5px 0px;
+    padding: 10px 0px;
     margin-top: 20px;
     background-color: #1CD1B0;
     font-weight: 700;
+    font-size: 1em;
 }
 .botonGrande{
     position: relative;
-    width: 350px;
+    width: 550px;
 }
 .btnReset{
     background-color: #888;
     margin: 20px 5px 0px 0px;
-    width: 170px;
+    width: 270px;
     color: white;
   
 }
 .btnEntrar{
-    width: 170px;
+    width: 270px;
 }
 .texto{
     margin-top: 7px;
     text-align: center;
-    font-size: 10px;
 }

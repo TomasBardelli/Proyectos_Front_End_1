@@ -55,7 +55,7 @@ ul{
 }
 .navBar{
     display: inline-block;
-    padding: 4px;
+    padding: 10px;
 }
 .navBar a{
     color: #f3f3f3;
@@ -79,15 +79,15 @@ ul{
 .cardTextImg{
     border: 1px solid black;
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     position: absolute;
-    top: -60px;
-    left: 155px;
+    top: -80px;
+    left: 145px;
     z-index: 10;
 }
 .cardImg{
-    height: 150px;
+    height: 200px;
     width: 398px;
     border-radius: 20px 20px 0px 0px;
     background-size: cover;
@@ -97,6 +97,7 @@ ul{
 .corazon{
     padding: 10px;
     color: red;
+    font-size: 1.3em;
 }
 .cardImg-Batman{
     background-image: url(../img/bg-batman.jpg);   
@@ -109,7 +110,7 @@ ul{
 }
 .descripccion{
     position: relative;
-    
+    padding: 0px 10px;
 }
 .boton{
     padding: 10px 20px;
