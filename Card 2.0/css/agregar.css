@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    color: #f3f3f3;
+    position: sticky;
+    top: 0;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #00669F;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+h2{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #f3f3f3;
+    font-size: 35px;
+}
+nav{
+
+    background-color: #001D2D;
+}
+ul{
+    text-align: right;
+    padding-right: 10px;
+}
+section{
+    margin: auto;
+    max-width: 950px;
+    max-height: 1300px;
+    background-color: #00669F;
+    color: white;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+section p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+form{
+    position: relative;
+    
+}
+fieldset{
+    display: inline;
+    width: 470px;
+    padding: 15px 0px;
+    border: 0;
+}
+textarea{
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+input[type=text]{
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px 30px 0px;
+    width: 300px;
+    border: 0;
+}
+input[type=date]{
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px 30px 0px;
+    width: 300px;
+    border: 0;
+}
+select{
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px 30px 0px;
+    width: 300px;
+}
+input[type=file]{
+    display: block;
+    border-radius: 10px; 
+    margin: 20px 0px 45px 0px;
+    width: 300px;
+}
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    margin: 5px 5px 0px 0px;
+}
+input[type=radio]{
+    height: 20px;
+    width: 20px;
+    margin: 5px 10px 0px 0px;
+}
+input[type=submit]{
+    background-color: #1CD1B0;
+    position: relative;
+    left: 320px;
+    padding: 20px 100px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.navBar{
+    display: inline-block;
+    padding: 10px;
+}
+.navBar a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.descuento{
+    background-color: #1CD1B0;
+    padding: 0 10px;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+}
+.columna1{
+    position: relative;
+    padding-left: 140px;
+    
+}
+.columna2{
+    position: relative;
+    top: 0;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    
+}
+#barra{
+    color: #CCC;
+    text-align: left;
+    margin-bottom: 15px;
+}
