@@ -17,3 +17,7 @@ Link: https://tomasbardelli.github.io/Proyectos_Front_End/Cards
 4.Proyecto Cartas Parte 2: Se agregan formularios y paginas asociadas a cada carta
 
 Link: https://tomasbardelli.github.io/Proyectos_Front_End/Card%202.0/
+
+5. Practica Examen: Practica de css y html utilizando Flex
+
+Link: https://tomasbardelli.github.io/Proyectos_Front_End/Practica%Examen/
